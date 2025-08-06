@@ -33,6 +33,7 @@ public class Student {
         this.last_name = last_name;
         this.email = email;
     }
+    public Student(){}   // Created just if we are giving values exp
 
     public int getId() {
         return id;
